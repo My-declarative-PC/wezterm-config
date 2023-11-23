@@ -10,7 +10,8 @@ local config = {
     },
     -- -- -- -- --
 
-    font = wezterm.font("FiraCode Nerd Font Mono"),
+    front_end = 'OpenGL',
+    font = wezterm.font("FiraCode"),
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
     hide_tab_bar_if_only_one_tab = true,
