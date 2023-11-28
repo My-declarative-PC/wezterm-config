@@ -11,7 +11,6 @@ local config = {
     -- -- -- -- --
 
     front_end = 'OpenGL',
-    font = wezterm.font("FiraCode"),
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
     hide_tab_bar_if_only_one_tab = true,
@@ -52,11 +51,22 @@ local config = {
     }
 }
 
+for i = 1, 8 do
+  -- CTRL+ALT + number to move to that position
+  table.insert(config.keys, {
+    key = tostring(i),
+    mods = 'CTRL|ALT',
+    action = wezterm.action.MoveTab(i - 1),
+  })
+end
+
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     -- config.default_domain = "WSL:nix";
     config.default_prog = { 'pwsh' };
+    config.font = wezterm.font("FiraCode Nerd Font Mono")
 else
     config.window_decorations = "NONE";
+    config.font = wezterm.font("FiraCode")
 end
 
 return config;
