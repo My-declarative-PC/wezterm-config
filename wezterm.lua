@@ -27,6 +27,7 @@ local config = {
     skip_close_confirmation_for_processes_named = {
         'bash',
         'fish',
+        'nu',
         'pwsh',
         'sh',
         'tmux',
@@ -62,11 +63,11 @@ end
 
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     -- config.default_domain = "WSL:nix";
-    config.default_prog = { 'pwsh' };
     config.font = wezterm.font("FiraCode Nerd Font Mono")
 else
     config.window_decorations = "NONE";
     config.font = wezterm.font("FiraCode")
 end
+config.default_prog = { 'nu' };
 
 return config;
