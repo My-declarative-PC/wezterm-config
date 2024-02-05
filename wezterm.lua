@@ -61,13 +61,14 @@ for i = 1, 8 do
   })
 end
 
+config.default_prog = { 'nu' };
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     -- config.default_domain = "WSL:nix";
     config.font = wezterm.font("FiraCode Nerd Font Mono")
 else
+    config.default_prog = { 'fish' };
     config.window_decorations = "NONE";
     config.font = wezterm.font("FiraCode")
 end
-config.default_prog = { 'nu' };
 
 return config;
