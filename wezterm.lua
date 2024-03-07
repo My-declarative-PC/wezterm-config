@@ -5,7 +5,14 @@ local config = {
     color_scheme = "Catppuccin Mocha",
     colors = { selection_bg = 'rgba(189 147 249 73%)' },
     window_background_gradient = {
-        colors = { 'rgba(68 71 90 50%)', 'rgba(40 42 54 80%)', 'rgba(40 42 54 98%)', 'rgba(40 42 54 100%)' },
+        colors = {
+            'rgba(40 42 54 100%)',
+            'rgba(40 42 54 088%)',
+            'rgba(40 42 54 042%)',
+            'rgba(40 42 54 042%)',
+            'rgba(40 42 54 088%)',
+            'rgba(40 42 54 100%)',
+        },
         orientation = { Linear = { angle = -100.0 } },
     },
     -- -- -- -- --
