@@ -17,9 +17,12 @@ local config = {
     },
     -- -- -- -- --
 
+    font = wezterm.font("FiraCode"),
     front_end = 'OpenGL',
+    default_prog = { 'fish' },
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
+    window_decorations = "NONE",
     hide_tab_bar_if_only_one_tab = true,
     pane_focus_follows_mouse = true,
     window_close_confirmation = 'NeverPrompt',
@@ -68,14 +71,10 @@ for i = 1, 8 do
   })
 end
 
-config.default_prog = { 'nu' };
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
-    -- config.default_domain = "WSL:nix";
     config.font = wezterm.font("FiraCode Nerd Font Mono")
-else
-    config.default_prog = { 'fish' };
-    config.window_decorations = "NONE";
-    config.font = wezterm.font("FiraCode")
+    config.default_prog = { 'pwsh' };
+    config.window_decorations = "TITLE";
 end
 
 return config;
