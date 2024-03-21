@@ -1,5 +1,10 @@
 local wezterm = require 'wezterm'
 
+local homePath = '~';
+if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
+    homePath = 'C:/Users/sitnikov';
+end
+
 local config = {
     -- Set color
     color_scheme = "Catppuccin Mocha",
@@ -14,6 +19,28 @@ local config = {
             'rgba(40 42 54 100%)',
         },
         orientation = { Linear = { angle = -100.0 } },
+    },
+    background = {
+        {
+            source = {
+                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+            },
+            repeat_x = 'Mirror',
+            repeat_y = 'Mirror',
+            width = '20%',
+            height = '20%',
+            attachment = { Parallax = 0.1 },
+        },
+        {
+            source = {
+                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+            },
+            repeat_x = 'Mirror',
+            repeat_y = 'Mirror',
+            width = '15%',
+            height = '15%',
+            attachment = { Parallax = 0.15 },
+        },
     },
     -- -- -- -- --
 
