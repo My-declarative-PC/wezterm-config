@@ -2,13 +2,16 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="72mm"
-   height="90mm"
-   viewBox="0 0 72 90"
+   width="175mm"
+   height="175mm"
+   viewBox="0 0 175 175"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    sodipodi:docname="wez_background.svg"
+   inkscape:export-filename="wez_background.png"
+   inkscape:export-xdpi="200"
+   inkscape:export-ydpi="200"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,10 +27,10 @@
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.53165938"
-     inkscape:cx="-33.856263"
-     inkscape:cy="146.71047"
-     inkscape:window-width="1280"
+     inkscape:zoom="0.37593996"
+     inkscape:cx="429.58988"
+     inkscape:cy="258.01993"
+     inkscape:window-width="1571"
      inkscape:window-height="514"
      inkscape:window-x="269"
      inkscape:window-y="365"
@@ -35,6 +38,17 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs1">
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-1"
+       cx="82.871445"
+       cy="99.058647"
+       fx="82.871445"
+       fy="99.058647"
+       r="25.864336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-114.24008,-86.550798)" />
     <linearGradient
        id="linearGradient1"
        inkscape:collect="always">
@@ -50,147 +64,240 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2"
+       id="radialGradient2-1-3"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-66.37457,-62.036516)" />
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-153.18031,-63.997323)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2-6"
+       id="radialGradient2-1-8"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-66.37457,-22.036517)" />
+       gradientTransform="matrix(0.96658153,0,0,0.96658083,-153.24201,-108.99716)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2-1"
+       id="radialGradient2-1-3-3"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-100.99948,-42.042651)" />
+       gradientTransform="matrix(0.96658153,0,0,0.96658083,-192.18223,-86.443706)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2-5"
+       id="radialGradient2-1-3-2"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-100.99949,-82.042655)" />
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-231.1843,-108.89029)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2-1-7"
+       id="radialGradient2-1-4"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-135.6244,-62.048789)" />
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-192.24407,-131.44376)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2-6-9-3"
+       id="radialGradient2-1-3-5"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-100.99948,-2.0426677)" />
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-153.11854,-18.997336)" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient1"
-       id="radialGradient2-1-7-8"
+       id="radialGradient2-1-8-3"
        cx="82.871445"
        cy="99.058647"
        fx="82.871445"
        fy="99.058647"
        r="25.864336"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.9665819,0,0,0.96658194,-135.62439,-22.048797)" />
+       gradientTransform="matrix(0.96658153,0,0,0.96658083,-128.42498,-242.33253)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-1-9"
+       cx="82.871445"
+       cy="99.058647"
+       fx="82.871445"
+       fy="99.058647"
+       r="25.864336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-89.423135,-219.88616)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-1-3-1"
+       cx="82.871445"
+       cy="99.058647"
+       fx="82.871445"
+       fy="99.058647"
+       r="25.864336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-192.05876,3.5561414)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-1-3-3-2"
+       cx="82.871445"
+       cy="99.058647"
+       fx="82.871445"
+       fy="99.058647"
+       r="25.864336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.96658153,0,0,0.96658083,-231.06073,-18.890216)" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="radialGradient2-1-3-2-9"
+       cx="82.871445"
+       cy="99.058647"
+       fx="82.871445"
+       fy="99.058647"
+       r="25.864336"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9665819,0,0,0.96658194,-270.06275,-41.336826)" />
   </defs>
   <g
      inkscape:label="Слой 1"
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill:url(#radialGradient2);stroke-width:0.256;stroke-dasharray:none"
-       id="path1"
-       cx="13.727468"
-       cy="33.711788"
-       r="25"
-       inkscape:transform-center-x="-0.01128837"
-       inkscape:transform-center-y="0.053761627"
-       transform="rotate(-59.921354)" />
-    <circle
        style="fill:url(#radialGradient2-1);stroke-width:0.256;stroke-dasharray:none"
        id="path1-5"
-       cx="-20.897446"
-       cy="53.70565"
+       cx="-34.138042"
+       cy="9.197504"
        r="25"
-       inkscape:transform-center-x="-0.01128837"
-       inkscape:transform-center-y="0.053761627"
-       transform="rotate(-59.921354)" />
+       inkscape:transform-center-x="20.142999"
+       inkscape:transform-center-y="-12.8616"
+       transform="rotate(-119.92135)" />
     <circle
-       style="fill:url(#radialGradient2-6);stroke-width:0.256;stroke-dasharray:none"
-       id="path1-2"
-       cx="13.727476"
-       cy="73.711777"
+       style="fill:url(#radialGradient2-1-3);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0"
+       cx="-73.078262"
+       cy="31.750975"
        r="25"
-       inkscape:transform-center-x="-34.624816"
-       inkscape:transform-center-y="20.101282"
-       transform="rotate(-59.921354)" />
-    <circle
-       style="fill:url(#radialGradient2-5);stroke-width:0.256;stroke-dasharray:none"
-       id="path1-28"
-       cx="-20.897453"
-       cy="13.705649"
-       r="25"
-       inkscape:transform-center-x="-0.01128837"
-       inkscape:transform-center-y="0.053761627"
-       transform="rotate(-59.921354)" />
-    <circle
-       style="fill:url(#radialGradient2-1-7);stroke-width:0.256;stroke-dasharray:none"
+       inkscape:transform-center-x="-18.828141"
+       inkscape:transform-center-y="9.6384007"
+       transform="rotate(-119.92135)" />
+    <ellipse
+       style="fill:url(#radialGradient2-1-8);stroke-width:0.256;stroke-dasharray:none"
        id="path1-5-2"
-       cx="-55.522358"
-       cy="33.69952"
-       r="25"
-       inkscape:transform-center-x="-0.01128837"
-       inkscape:transform-center-y="0.053761627"
-       transform="rotate(-59.921354)" />
+       cx="-73.140007"
+       cy="-13.248962"
+       inkscape:transform-center-x="20.142968"
+       inkscape:transform-center-y="-12.861599"
+       transform="matrix(-0.49881016,-0.86671127,0.86671061,-0.49881131,0,0)"
+       rx="24.99999"
+       ry="24.999971" />
     <circle
-       style="fill:url(#radialGradient2-1-7-8);stroke-width:0.256;stroke-dasharray:none"
-       id="path1-5-2-0"
-       cx="-55.52235"
-       cy="73.699493"
+       style="fill:url(#radialGradient2-1-3-5);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0-7"
+       cx="-73.016495"
+       cy="76.750969"
        r="25"
-       inkscape:transform-center-x="-0.01128837"
-       inkscape:transform-center-y="0.053761627"
-       transform="rotate(-59.921354)" />
+       inkscape:transform-center-x="-18.828141"
+       inkscape:transform-center-y="9.6384007"
+       transform="rotate(-119.92135)" />
+    <ellipse
+       style="fill:url(#radialGradient2-1-3-3);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0-6"
+       cx="-112.0802"
+       cy="9.3044825"
+       inkscape:transform-center-x="-18.82811"
+       inkscape:transform-center-y="9.6383979"
+       transform="matrix(-0.49881016,-0.86671127,0.86671061,-0.49881131,0,0)"
+       rx="24.99999"
+       ry="24.999971" />
     <circle
-       style="fill:url(#radialGradient2-6-9-3);stroke-width:0.256;stroke-dasharray:none"
-       id="path1-2-0-4"
-       cx="-20.897438"
-       cy="93.705635"
+       style="fill:url(#radialGradient2-1-4);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-8"
+       cx="-112.14203"
+       cy="-35.695454"
        r="25"
-       inkscape:transform-center-x="-34.624816"
-       inkscape:transform-center-y="20.101282"
-       transform="rotate(-59.921354)" />
+       inkscape:transform-center-x="20.142999"
+       inkscape:transform-center-y="-12.8616"
+       transform="rotate(-119.92135)" />
+    <circle
+       style="fill:url(#radialGradient2-1-3-2);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0-3"
+       cx="-151.08224"
+       cy="-13.141987"
+       r="25"
+       inkscape:transform-center-x="-18.828141"
+       inkscape:transform-center-y="9.6384007"
+       transform="rotate(-119.92135)" />
+    <circle
+       style="fill:url(#radialGradient2-1-9);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-4"
+       cx="-9.3210983"
+       cy="-124.13786"
+       r="25"
+       inkscape:transform-center-x="-20.142996"
+       inkscape:transform-center-y="-12.861604"
+       transform="matrix(0.49881073,-0.86671094,-0.86671094,-0.49881073,0,0)" />
+    <ellipse
+       style="fill:url(#radialGradient2-1-8-3);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-2-2"
+       cx="-48.322979"
+       cy="-146.58434"
+       inkscape:transform-center-x="-20.142963"
+       inkscape:transform-center-y="-12.861602"
+       transform="matrix(0.49881016,-0.86671127,-0.86671061,-0.49881131,0,0)"
+       rx="24.99999"
+       ry="24.999971" />
+    <circle
+       style="fill:url(#radialGradient2-1-3-1);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0-62"
+       cx="-111.95671"
+       cy="99.304443"
+       r="25"
+       inkscape:transform-center-x="-18.828141"
+       inkscape:transform-center-y="9.6384007"
+       transform="rotate(-119.92135)" />
+    <ellipse
+       style="fill:url(#radialGradient2-1-3-3-2);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0-6-0"
+       cx="-150.95869"
+       cy="76.857971"
+       inkscape:transform-center-x="-18.82811"
+       inkscape:transform-center-y="9.6383979"
+       transform="matrix(-0.49881016,-0.86671127,0.86671061,-0.49881131,0,0)"
+       rx="24.99999"
+       ry="24.999971" />
+    <circle
+       style="fill:url(#radialGradient2-1-3-2-9);stroke-width:0.256;stroke-dasharray:none"
+       id="path1-5-0-3-1"
+       cx="-189.96069"
+       cy="54.411476"
+       r="25"
+       inkscape:transform-center-x="-18.828141"
+       inkscape:transform-center-y="9.6384007"
+       transform="rotate(-119.92135)" />
   </g>
 </svg>
