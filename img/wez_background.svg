@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="26mm"
-   height="30mm"
-   viewBox="0 0 26 30"
+   width="40mm"
+   height="40mm"
+   viewBox="0 0 40 40"
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
@@ -28,8 +28,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="2.1654036"
-     inkscape:cx="48.951612"
-     inkscape:cy="56.802343"
+     inkscape:cx="48.951613"
+     inkscape:cy="56.340536"
      inkscape:window-width="1422"
      inkscape:window-height="852"
      inkscape:window-x="125"
@@ -39,106 +39,41 @@
   <defs
      id="defs1">
     <linearGradient
-       id="linearGradient29"
+       id="linearGradient3"
        inkscape:collect="always">
       <stop
-         style="stop-color:#1e1e2e;stop-opacity:0.666;"
+         style="stop-color:#1e1e2e;stop-opacity:0.7;"
          offset="0"
-         id="stop28" />
+         id="stop3" />
+      <stop
+         style="stop-color:#1e1e2e;stop-opacity:0.6;"
+         offset="0.5"
+         id="stop5" />
       <stop
          style="stop-color:#1e1e2e;stop-opacity:0;"
          offset="1"
-         id="stop29" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient27"
-       inkscape:collect="always">
-      <stop
-         style="stop-color:#1e1e2e;stop-opacity:0.666;"
-         offset="0"
-         id="stop26" />
-      <stop
-         style="stop-color:#1e1e2e;stop-opacity:0;"
-         offset="1"
-         id="stop27" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient14"
-       inkscape:collect="always">
-      <stop
-         style="stop-color:#1e1e2e;stop-opacity:0.666;"
-         offset="0"
-         id="stop14" />
-      <stop
-         style="stop-color:#1e1e2e;stop-opacity:0;"
-         offset="1"
-         id="stop15" />
+         id="stop4" />
     </linearGradient>
     <radialGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient29"
-       id="radialGradient23"
-       cx="0"
-       cy="-30"
-       fx="0"
-       fy="-30"
-       r="22"
-       gradientUnits="userSpaceOnUse" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient14"
-       id="radialGradient20"
-       cx="26"
-       cy="-15"
-       fx="26"
-       fy="-15"
-       r="22"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0)" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient27"
-       id="radialGradient24"
-       cx="0"
-       cy="0"
-       fx="0"
-       fy="0"
-       r="22"
+       xlink:href="#linearGradient3"
+       id="radialGradient4"
+       cx="20"
+       cy="20"
+       fx="20"
+       fy="20"
+       r="20"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:label="Слой 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <ellipse
-       style="fill:url(#radialGradient23);fill-opacity:0.666;stroke:none;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
-       id="path1-5-6-7-63-8-8-6"
-       cx="00"
-       cy="-30"
-       inkscape:transform-center-x="16.967981"
-       inkscape:transform-center-y="8.8108435"
-       transform="rotate(120)"
-       rx="22"
-       ry="22" />
-    <ellipse
-       style="fill:url(#radialGradient20);fill-opacity:0.666;stroke:none;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
-       id="path1-5-6-7-63-8-8-4"
-       cx="26"
-       cy="-15"
-       inkscape:transform-center-x="16.967981"
-       inkscape:transform-center-y="8.8108435"
-       transform="rotate(120)"
-       rx="22"
-       ry="22" />
-    <ellipse
-       style="fill:url(#radialGradient24);fill-opacity:0.666;stroke:none;stroke-width:1.5;stroke-dasharray:none;stroke-opacity:1"
-       id="path1-5-6-7-63-8-8"
-       cx="0"
-       cy="0"
-       inkscape:transform-center-x="16.967981"
-       inkscape:transform-center-y="8.8108435"
-       transform="rotate(120)"
-       rx="22"
-       ry="22" />
+    <circle
+       style="fill:url(#radialGradient4);fill-opacity:0.7;stroke-width:2.0"
+       id="path1"
+       cx="20"
+       cy="20"
+       r="20" />
   </g>
 </svg>

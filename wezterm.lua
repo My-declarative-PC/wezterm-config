@@ -5,6 +5,7 @@ if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     homePath = 'C:/Users/sitnikov';
 end
 
+local size = 0.5*472;
 local config = {
     -- Set color
     color_scheme = "Catppuccin Mocha",
@@ -25,31 +26,46 @@ local config = {
             source = {
                 File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
             },
-            repeat_x = 'Mirror',
-            repeat_y = 'Mirror',
-            width = tostring(0.5*307*1)..'px',
-            height = tostring(0.5*354*1)..'px',
-            attachment = { Parallax = 0.06 },
+            repeat_y_size = size,
+            repeat_x_size = size,
+            width = tostring(size*1)..'px',
+            height = tostring(size*1)..'px',
+            attachment = { Parallax = 0.15 },
         },
         {
             source = {
                 File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
             },
-            repeat_x = 'Mirror',
-            repeat_y = 'Mirror',
-            width = tostring(0.5*307*0.8)..'px',
-            height = tostring(0.5*354*0.8)..'px',
-            attachment = { Parallax = 0.04 },
+            repeat_y_size = size,
+            repeat_x_size = size,
+            horizontal_offset = -size*0.8/2,
+            width = tostring(size*0.8)..'px',
+            height = tostring(size*0.8)..'px',
+            attachment = { Parallax = 0.10 },
         },
         {
             source = {
                 File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
             },
-            repeat_x = 'Mirror',
-            repeat_y = 'Mirror',
-            width = tostring(0.5*307*0.6)..'px',
-            height = tostring(0.5*354*0.6)..'px',
-            attachment = { Parallax = 0.02 },
+            repeat_y_size = size,
+            repeat_x_size = size,
+            vertical_offset = -size*0.6/2,
+            horizontal_offset = -size*0.6/2,
+            width = tostring(size*0.6)..'px',
+            height = tostring(size*0.6)..'px',
+            attachment = { Parallax = 0.05 },
+        },
+        {
+            source = {
+                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+            },
+            repeat_y_size = size,
+            repeat_x_size = size,
+            vertical_offset = (size-size*0.6)/2,
+            horizontal_offset = (size-size*0.6)/2,
+            width = tostring(size*0.6)..'px',
+            height = tostring(size*0.6)..'px',
+            attachment = { Parallax = 0.05 },
         },
     },
     -- -- -- -- --
