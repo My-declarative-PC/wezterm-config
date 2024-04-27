@@ -70,7 +70,7 @@ local config = {
     },
     -- -- -- -- --
 
-    font = wezterm.font("FiraCode"),
+    font = wezterm.font("FiraCodeNerdFontMono"),
     front_end = 'OpenGL',
     default_prog = { 'fish' },
     tab_bar_at_bottom = true,
