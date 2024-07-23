@@ -1,6 +1,6 @@
 local wezterm = require 'wezterm'
 
-local homePath = '/var/home/timofey';
+local homePath = '/home/timofey';
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     homePath = 'C:/Users/sitnikov';
 end
@@ -24,7 +24,7 @@ local config = {
     background = {
         {
             source = {
-                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -34,7 +34,7 @@ local config = {
         },
         {
             source = {
-                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -45,7 +45,7 @@ local config = {
         },
         {
             source = {
-                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -57,7 +57,7 @@ local config = {
         },
         {
             source = {
-                File = homePath .. '/gits/dotfiles/wezterm/img/wez_background.png',
+                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -70,9 +70,9 @@ local config = {
     },
     -- -- -- -- --
 
-    font = wezterm.font("FiraCodeNerdFontMono"),
+    font = wezterm.font("CaskaydiaCoveNerdFontMono"),
     front_end = 'OpenGL',
-    default_prog = { 'fish' },
+    -- default_prog = { 'fish' },
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
     window_decorations = "NONE",
@@ -81,9 +81,9 @@ local config = {
     window_close_confirmation = 'NeverPrompt',
 
     window_padding = {
-        left = 4,
-        right = 4,
-        top = 4,
+        left   = 4,
+        right  = 4,
+        top    = 4,
         bottom = 4,
     },
 
