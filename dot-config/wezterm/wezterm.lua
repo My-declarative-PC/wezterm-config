@@ -2,7 +2,7 @@ local wezterm = require 'wezterm'
 
 local homePath = '/home/timofey';
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
-    homePath = 'C:/Users/sitnikov';
+    homePath = 'C:/Users/sitnikov/gits';
 end
 
 local size = 0.5*472;
