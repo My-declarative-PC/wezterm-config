@@ -8,16 +8,16 @@ end
 local size = 0.5*472;
 local config = {
     -- Set color
-    color_scheme = "Catppuccin Mocha",
-    colors = { selection_bg = 'rgba(189 147 249 73%)' },
+    color_scheme = "Dracula",
+    colors = { selection_bg = 'rgba(68 71 90 73%)' },
     window_background_gradient = {
         colors = {
-            'rgba(30 30 46 100%)',
-            'rgba(30 30 46 088%)',
-            'rgba(30 30 46 042%)',
-            'rgba(30 30 46 042%)',
-            'rgba(30 30 46 088%)',
-            'rgba(30 30 46 100%)',
+            'rgba(40 42 54 100%)',
+            'rgba(40 42 54 088%)',
+            'rgba(40 42 54 042%)',
+            'rgba(40 42 54 042%)',
+            'rgba(40 42 54 088%)',
+            'rgba(40 42 54 100%)',
         },
         orientation = { Linear = { angle = -100.0 } },
     },
@@ -125,7 +125,7 @@ for i = 1, 8 do
 end
 
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
-    config.font = wezterm.font("FiraCode Nerd Font Mono")
+    config.font = wezterm.font("Cascadia Code NF")
     config.default_prog = { 'pwsh' };
     config.window_decorations = "TITLE";
 end
