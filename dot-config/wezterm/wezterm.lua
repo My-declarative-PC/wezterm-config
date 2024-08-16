@@ -72,7 +72,7 @@ local config = {
 
     font = wezterm.font("CaskaydiaCoveNerdFontMono"),
     front_end = 'OpenGL',
-    -- default_prog = { 'fish' },
+    default_prog = { 'fish' },
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
     window_decorations = "NONE",
