@@ -76,7 +76,7 @@ local config = {
     scrollback_lines = 50000,
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
-    window_decorations = "NONE",
+    window_decorations = "RESIZE",
     hide_tab_bar_if_only_one_tab = true,
     pane_focus_follows_mouse = true,
     window_close_confirmation = 'NeverPrompt',
@@ -128,7 +128,7 @@ end
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     config.font = wezterm.font("Cascadia Code NF")
     config.default_prog = { 'pwsh' };
-    config.window_decorations = "TITLE";
+    config.window_decorations = "TITLE | RESIZE";
 end
 
 return config;
