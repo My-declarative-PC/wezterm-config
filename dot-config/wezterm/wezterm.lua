@@ -8,16 +8,16 @@ end
 local size = 0.5*472;
 local config = {
     -- Set color
-    color_scheme = "Dracula (Official)",
-    colors = { selection_bg = 'rgba(98 114 164 73%)' },
+    color_scheme = "Catppuccin Mocha",
+    colors = { selection_bg = 'rgba(108 112 134 73%)' },
     window_background_gradient = {
         colors = {
-            'rgba(40 42 54 100%)',
-            'rgba(40 42 54 088%)',
-            'rgba(40 42 54 042%)',
-            'rgba(40 42 54 042%)',
-            'rgba(40 42 54 088%)',
-            'rgba(40 42 54 100%)',
+            'rgba(30 30 46 100%)',
+            'rgba(30 30 46 088%)',
+            'rgba(30 30 46 042%)',
+            'rgba(30 30 46 042%)',
+            'rgba(30 30 46 088%)',
+            'rgba(30 30 46 100%)',
         },
         orientation = { Linear = { angle = -100.0 } },
     },
