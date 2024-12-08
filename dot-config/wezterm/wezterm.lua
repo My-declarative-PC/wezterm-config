@@ -70,7 +70,7 @@ local config = {
     },
     -- -- -- -- --
 
-    font = wezterm.font("CaskaydiaCoveNerdFontMono"),
+    font = wezterm.font("Fira Code"),
     front_end = 'OpenGL',
     default_prog = { 'fish' },
     scrollback_lines = 50000,
