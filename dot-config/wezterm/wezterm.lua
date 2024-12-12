@@ -8,7 +8,7 @@ end
 local size = 0.5*472;
 local config = {
     -- Set color
-    color_scheme = "Dracula",
+    color_scheme = "Dracula (Official)",
     colors = { selection_bg = 'rgba(68 71 90 73%)' },
     window_background_gradient = {
         colors = {
