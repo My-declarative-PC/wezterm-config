@@ -1,6 +1,6 @@
 local wezterm = require 'wezterm'
 
-local homePath = '/home/timofey';
+local homePath = wezterm.home_dir;
 if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     homePath = 'C:/Users/sitnikov/gits';
 end
@@ -24,7 +24,7 @@ local config = {
     background = {
         {
             source = {
-                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
+                File = homePath .. '/.config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -34,7 +34,7 @@ local config = {
         },
         {
             source = {
-                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
+                File = homePath .. '/.config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -45,7 +45,7 @@ local config = {
         },
         {
             source = {
-                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
+                File = homePath .. '/.config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
@@ -57,7 +57,7 @@ local config = {
         },
         {
             source = {
-                File = homePath .. '/dotfiles/wezterm/dot-config/wezterm/img/wez_background.png',
+                File = homePath .. '/.config/wezterm/img/wez_background.png',
             },
             repeat_y_size = size,
             repeat_x_size = size,
