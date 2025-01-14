@@ -21,53 +21,6 @@ local config = {
         },
         orientation = { Linear = { angle = -100.0 } },
     },
-    background = {
-        {
-            source = {
-                File = homePath .. '/.config/wezterm/img/wez_background.png',
-            },
-            repeat_y_size = size,
-            repeat_x_size = size,
-            width = tostring(size*1)..'px',
-            height = tostring(size*1)..'px',
-            attachment = { Parallax = 0.15 },
-        },
-        {
-            source = {
-                File = homePath .. '/.config/wezterm/img/wez_background.png',
-            },
-            repeat_y_size = size,
-            repeat_x_size = size,
-            horizontal_offset = -size*0.8/2,
-            width = tostring(size*0.8)..'px',
-            height = tostring(size*0.8)..'px',
-            attachment = { Parallax = 0.10 },
-        },
-        {
-            source = {
-                File = homePath .. '/.config/wezterm/img/wez_background.png',
-            },
-            repeat_y_size = size,
-            repeat_x_size = size,
-            vertical_offset = -size*0.6/2,
-            horizontal_offset = -size*0.6/2,
-            width = tostring(size*0.6)..'px',
-            height = tostring(size*0.6)..'px',
-            attachment = { Parallax = 0.05 },
-        },
-        {
-            source = {
-                File = homePath .. '/.config/wezterm/img/wez_background.png',
-            },
-            repeat_y_size = size,
-            repeat_x_size = size,
-            vertical_offset = (size-size*0.6)/2,
-            horizontal_offset = (size-size*0.6)/2,
-            width = tostring(size*0.6)..'px',
-            height = tostring(size*0.6)..'px',
-            attachment = { Parallax = 0.05 },
-        },
-    },
     -- -- -- -- --
 
     font = wezterm.font("Fira Code"),
