@@ -1,9 +1,6 @@
 local wezterm = require 'wezterm'
 
 local homePath = wezterm.home_dir;
-if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
-    homePath = 'C:/Users/sitnikov/gits';
-end
 
 local size = 0.5*472;
 local config = {
@@ -23,7 +20,7 @@ local config = {
     },
     -- -- -- -- --
 
-    font = wezterm.font("Fira Code"),
+    font = wezterm.font("FiraCodeNerdFontMono"),
     front_end = 'OpenGL',
     default_prog = { 'fish' },
     scrollback_lines = 50000,
@@ -76,12 +73,6 @@ for i = 1, 8 do
     mods = 'CTRL|ALT',
     action = wezterm.action.MoveTab(i - 1),
   })
-end
-
-if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
-    config.font = wezterm.font("Cascadia Code NF")
-    config.default_prog = { 'pwsh' };
-    config.window_decorations = "TITLE | RESIZE";
 end
 
 return config;
