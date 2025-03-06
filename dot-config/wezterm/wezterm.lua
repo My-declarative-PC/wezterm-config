@@ -22,7 +22,7 @@ local config = {
 
     font = wezterm.font("FiraCodeNerdFontMono"),
     front_end = 'OpenGL',
-    default_prog = { '/home/linuxbrew/.linuxbrew/bin/fish' },
+    default_prog = { 'fish' },
     scrollback_lines = 50000,
     tab_bar_at_bottom = true,
     use_fancy_tab_bar = false,
