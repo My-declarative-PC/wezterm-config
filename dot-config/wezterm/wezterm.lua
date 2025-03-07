@@ -10,10 +10,10 @@ local config = {
     window_background_gradient = {
         colors = {
             'rgba(30 30 46 100%)',
-            'rgba(30 30 46 088%)',
-            'rgba(30 30 46 042%)',
-            'rgba(30 30 46 042%)',
-            'rgba(30 30 46 088%)',
+            'rgba(30 30 46 095%)',
+            'rgba(30 30 46 073%)',
+            'rgba(30 30 46 073%)',
+            'rgba(30 30 46 095%)',
             'rgba(30 30 46 100%)',
         },
         orientation = { Linear = { angle = -100.0 } },
